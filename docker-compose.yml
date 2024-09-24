@@ -3,7 +3,7 @@ services:
   vprodb:
     build:
       context: ./Docker-files/db
-    iamge: zimwick/vprofiledb
+    image: zimwick/vprofiledb
     container_name: vprodb
     ports:
       - "3306:3306"
