@@ -28,7 +28,7 @@ services:
   vproapp:
     build:
       context: ./Docker-files/app
-    iamge: zimwick/vprofileapp
+    image: zimwick/vprofileapp
     container_name: vproapp
     ports:
       - "8080:8080"
@@ -38,7 +38,7 @@ services:
   vproweb:
     build:
       context: ./Docker-files/web
-    iamge: zimwick/vprofileweb
+    image: zimwick/vprofileweb
     container_name: vproweb
     ports:
       - "80:80"
